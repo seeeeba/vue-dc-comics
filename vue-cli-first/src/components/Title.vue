@@ -1,3 +1,16 @@
 <template>
-    <h1>La mia prima app con Vue CLI!</h1>
+    <h1>{{ text }}</h1>
 </template>
+
+<script>
+export default{
+    name: "Title",
+    data: function(){
+        return{
+            text: 'La mia prima app con Vue CLI!'
+        };
+    }
+} 
+</script>
+
+
