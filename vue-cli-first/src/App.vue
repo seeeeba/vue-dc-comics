@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Title />
+    <Banner />
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
@@ -9,6 +10,7 @@
 <script>
 import Title from "./components/Title.vue";
 import HelloWorld from "./components/HelloWorld.vue";
+import Banner from "./components/Banner.vue";
 
 
 export default {
@@ -16,6 +18,7 @@ export default {
   components: {
     Title,
     HelloWorld,
+    Banner,
   },
 };
 </script>
